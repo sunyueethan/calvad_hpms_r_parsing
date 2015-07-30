@@ -1,0 +1,28 @@
+{
+  "name": "calvad_hpms_r_parsing",
+  "version": "1.0.0",
+  "description": "Use R to parse HPMS CSV data",
+  "main": "index.js",
+  "dependencies": {
+      "calvad_rscripts": "jmarca/calvad_rscripts",
+      "rcouchutils":"git://github.com/jmarca/rstats_couch_utils.git",
+      "configr":"git://github.com/jmarca/configr.git"
+  },
+  "devDependencies": {
+    "should": "^6.0.1"
+  },
+  "scripts": {
+      "test": "Rscript Rtest.R",
+      "install":"Rscript Rinstall.R"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jmarca/calvad_hpms_r_parsing"
+  },
+  "author": "James E. Marca",
+  "license": "GPL-V2",
+  "bugs": {
+    "url": "https://github.com/jmarca/calvad_hpms_r_parsing/issues"
+  },
+  "homepage": "https://github.com/jmarca/calvad_hpms_r_parsing"
+}
