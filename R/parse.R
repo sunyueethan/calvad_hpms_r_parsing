@@ -1,3 +1,17 @@
+## borrowed the following hack from tidyr to get %>% imported
+
+##' Pipe operator
+##'
+##' See \code{\link[magrittr]{\%>\%}} for more details.
+##'
+##' @name %>%
+##' @rdname pipe
+##' @keywords internal
+##' @importFrom magrittr %>%
+##' @usage lhs \%>\% rhs
+NULL
+
+
 ##' Parse a CSV HPMS data file
 ##'
 ##' so far only works on 2012 data

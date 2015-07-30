@@ -7,3 +7,6 @@ Depends: R (>= 3.1.1)
 License: GPL-2
 LazyData: true
 Suggests: testthat
+Imports: readr,
+    dplyr,
+    tidyr
