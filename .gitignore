@@ -1,3 +1,6 @@
 test.config.json
 *~
+.DS_Store
+*.swp
+log/*.log
 config.json
