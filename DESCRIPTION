@@ -9,4 +9,5 @@ LazyData: true
 Suggests: testthat
 Imports: readr,
     dplyr,
-    tidyr
+    tidyr,
+    magrittr
