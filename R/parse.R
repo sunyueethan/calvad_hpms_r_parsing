@@ -21,8 +21,8 @@ NULL
 ##' @return a list of data frames
 ##' @author James E. Marca
 ##'
-parse_file <- function(filename){
-    df <- read_file(filename)
+parse_file <- function(filename, list){
+    df <- read_file(filename,list)
     df <- whitespace_fix(df)
     dfn <- extract_numeric(df)
     dfdt <- extract_date(df)
