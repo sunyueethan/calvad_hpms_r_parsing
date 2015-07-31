@@ -7,6 +7,8 @@
 ##' @author James E. Marca
 ##'
 extract_numeric <- function(the_data){
+  the_data$Section_Length <- the_data$End_Point - the_data$Begin_Point 
+  #### Var Section_Length need to be modified. Because in the raw hpms data same segment may have different Section_Length.
     data_numeric <- the_data %>%
         dplyr::select(-Comments,-Value_Date,-Value_Text) %>%
         dplyr::filter( !is.na(Value_Numeric) & Value_Numeric != '') %>%
